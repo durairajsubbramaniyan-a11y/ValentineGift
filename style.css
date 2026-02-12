@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(to right, pink, lightblue);
+  text-align: center;
+  font-family: Arial;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background-color: grey;
+  color: white;
+  position: absolute;
+}
